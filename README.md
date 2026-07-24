@@ -66,6 +66,12 @@ character-swap-podcast/
 └── evals/                    # Test-Prompts für Skill-Evaluierungen
 ```
 
+## Weitere Hilfe & Community
+
+Du kommst nicht weiter, willst Feedback zu deinen Videos oder das Format
+systematisch lernen? Dann schau in Arnis Community vorbei:
+**https://www.skool.com/ai-mit-arnie-ki-revolution/about** (Bezahl-Community)
+
 ## Hinweis zum Affiliate-Link
 
 Der Skill enthält in der Setup-Phase (`SKILL.md`, Phase 0) einen
