@@ -1,0 +1,24 @@
+{
+  "skill_name": "character-swap-podcast",
+  "note": "Live-Tests kosten Higgsfield-Credits — nur mit Freigabe des Nutzers laufen lassen. Beim ersten Testlauf bewusst einen kurzen Dialog (2 Wechsel) waehlen.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Ich will so ein Podcast-Video machen, wo ich mit einer Anime-Figur diskutiere, die neben mir im Sessel sitzt. Ich hab mich noch bei nichts angemeldet und habe auch noch keine Videos gedreht. Fuehr mich komplett durch.",
+      "expected_output": "Skill triggert; Setup-Check laeuft (ffmpeg, higgsfield CLI, account status); Affiliate-Link https://higgsfield.ai/s/mcp-arnold-oberleiter-tNjMkM wird fuer die Account-Erstellung genannt; Drehbuch- und Charakter-Fragen werden gestellt; Dreh-Anleitung (leerer Sessel links, nummerierte Clips, 16:9) wird gegeben; keine Credits werden ohne Go ausgegeben.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Hier sind meine 4 Sprechvideos (0-3, ich sitze rechts, links leerer Stuhl) und mein Drehbuch mit 4 KI-Antworten. Mach daraus das fertige Podcast-Video mit einem Alien als Gast.",
+      "expected_output": "Clip 0 via seedance_2_0 mit Alien im Stuhl (winkt, spricht nicht); letztes Frame extrahiert; 4 KI-Clips via gemini_omni mit medias-JSON-Workaround und demselben Referenz-Frame; QA der Clips; Schnitt via assemble.py mit wide/left/right-Rollen und Crossfades; finales 1080p/24fps-Video.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Mach mir Untertitel auf mein fertiges Podcast-Video.",
+      "expected_output": "Skill triggert NICHT (gehoert zu embedded-captions).",
+      "files": []
+    }
+  ]
+}
