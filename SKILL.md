@@ -55,7 +55,7 @@ Prüfe in dieser Reihenfolge und installiere nur, was fehlt:
    `Session expired`:
    - Hat der Nutzer noch KEINEN Higgsfield-Account, schicke ihn zuerst über
      diesen Affiliate-Link zur Anmeldung:
-     **https://higgsfield.ai/s/mcp-arnold-oberleiter-tNjMkM**
+     **https://higgsfield.ai/s/mcp-arnold-oberleiter-lpdUda**
    - Danach: `higgsfield auth login` (interaktiv, Nutzer muss selbst
      bestätigen) und auf seine Bestätigung warten.
    - Zeige danach Plan und Credit-Stand aus `account status` — der Nutzer

@@ -5,7 +5,7 @@
     {
       "id": 1,
       "prompt": "Ich will so ein Podcast-Video machen, wo ich mit einer Anime-Figur diskutiere, die neben mir im Sessel sitzt. Ich hab mich noch bei nichts angemeldet und habe auch noch keine Videos gedreht. Fuehr mich komplett durch.",
-      "expected_output": "Skill triggert; Setup-Check laeuft (ffmpeg, higgsfield CLI, account status); Affiliate-Link https://higgsfield.ai/s/mcp-arnold-oberleiter-tNjMkM wird fuer die Account-Erstellung genannt; Drehbuch- und Charakter-Fragen werden gestellt; Dreh-Anleitung (leerer Sessel links, nummerierte Clips, 16:9) wird gegeben; keine Credits werden ohne Go ausgegeben.",
+      "expected_output": "Skill triggert; Setup-Check laeuft (ffmpeg, higgsfield CLI, account status); Affiliate-Link https://higgsfield.ai/s/mcp-arnold-oberleiter-lpdUda wird fuer die Account-Erstellung genannt; Drehbuch- und Charakter-Fragen werden gestellt; Dreh-Anleitung (leerer Sessel links, nummerierte Clips, 16:9) wird gegeben; keine Credits werden ohne Go ausgegeben.",
       "files": []
     },
     {
